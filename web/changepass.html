@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exam Portal</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="demo.css" media="all" />
+<style type="text/css">
+<!--
+.style2 {font-weight: bold}
+.style4 {
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+}
+.style5 {
+	font-size: 16px;
+	color: #000000;
+	font-weight: bold;
+}
+.style6 {font-size: 18px}
+-->
+</style></head>
+<body>
+<div class="container">
+			<!-- freshdesignweb top bar -->
+            <div class="freshdesignweb-top">
+                <a href="admin.html" class="style5 style6" > Admin Home</a>
+                <span class="right style2">                        </span>
+                <div class="clr"></div>
+  </div><!--/ freshdesignweb top bar -->
+			<header>
+				<h1><span>Online Examination Admin page </span> Change Password </h1>
+            </header>       
+  <div  class="form">
+      <form id="contactform" action="changepass" method="post">
+    		<p class="contact"><label for="name">Username</label></p> 
+    		      <input name="username" type="text" id="username" tabindex="1" size="100" placeholder="ani@gmai.com" required=""> 
+    		      <br>
+  	
+    		    <p class="contact"><label for="name">Old Password</label></p> 
+    			<input name="oldpass" type="password" id="oldpass" tabindex="1" size="100" placeholder="abc123@" required=""> <br>
+				<p class="contact">
+				  <label for="name">New Password</label>
+				</p> 
+    			<input name="newpass" type="password" id="newpass" tabindex="1" size="100" placeholder="abc123@" required=""> <br>
+                        <p class="contact">
+				  <label for="name">ReType New Password</label>
+				</p> 
+    			 <input name="newpass1" type="password" id="newpass1" tabindex="1" size="100" placeholder="abc123@" required=""> <br><br>
+    			
+            <input class="buttom" name="submit" id="submit" tabindex="5" value="Change password" type="submit"> 	 
+   </form> 
+</div>      
+</div>
+
+</body>
+</html>
